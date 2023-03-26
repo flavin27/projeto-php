@@ -23,9 +23,9 @@ class Carro extends Motor {
         }
     }
     public function setChassi(): void {
-        $this->chassi = geraChassi();
+        $this->chassi = gerarChassi();
     }
-    public function getChassi(): string {
+    public function getChassi() {
         return $this->chassi;
     }
 }
